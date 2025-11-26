@@ -1,11 +1,9 @@
 # WorkWave Mentorship – Web Development Track
 
 Mentorship in Support of Digital Skills for Freelancing & Remote Employment  
-**Futurenation · UNDP Bangladesh**
+_Powered by UNDP Bangladesh · Futurenation_
 
 This repository contains all code examples, exercises, and materials used throughout the 8-week mentorship program. It will serve as the central resource hub once mentees start using Git & GitHub. Until then, files are shared in the WhatsApp group for simplicity.
-
----
 
 ## 📘 About This Repository
 
@@ -19,15 +17,11 @@ This mono-repo includes:
 
 New content will be added after each session.
 
----
-
 ## 🧭 Program Overview
 
 WorkWave is a mentorship program designed to help youth learn digital skills and prepare for freelancing and remote employment.  
 As a mentor, sessions are conducted online (1–1.5 hours), focusing on practical, beginner-friendly, portfolio-driven learning.  
 WhatsApp is used as the primary communication channel for daily updates, guidance, and resource sharing.
-
----
 
 ## 🗂 Repository Structure
 
@@ -46,8 +40,6 @@ Each session folder contains:
 - Code from the live class
 - Practice tasks
 - Additional examples or references
-
----
 
 ## 🗓 Full Curriculum (8 Weeks)
 
@@ -76,8 +68,6 @@ Each session folder contains:
 **Session 15:** Soft Skills & Remote Job Communication  
 **Session 16:** LinkedIn & GitHub Optimization + Final Showcase
 
----
-
 ## 🎯 Final Deliverables
 
 By the end of the mentorship, mentees will have:
@@ -89,31 +79,23 @@ By the end of the mentorship, mentees will have:
 - Updated LinkedIn & freelance profiles
 - Basic understanding of remote job communication
 
----
-
 ## 🚀 Getting Started
 
 ```bash
-git clone <your-repository-url>
+git clone git@github.com:bonnopc/workwave-mentorship-program.git
 cd workwave-mentorship
 ```
 
 Open any session folder and follow along.
-
-⸻
 
 ## 📬 Communication
 
 All resources, reminders, and quick updates are shared in the WhatsApp mentee group.
 This repository becomes the main source once mentees start using Git.
 
-⸻
-
 ## 🤝 For Future Contributors
 
 This repository is maintained as part of the WorkWave mentorship program under Futurenation, UNDP Bangladesh.
-
-⸻
 
 ## 📝 License
 
