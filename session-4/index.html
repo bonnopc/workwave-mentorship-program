@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 id="name">This will show my name</h1>
+
+    <button id="btn">Click Me</button>
+
+    <button id="btn2">Print Your Name</button>
+
+    <script>
+        // function (vanilla convention of writing a function)
+        function greet(){
+            console.log("Hello!"); // it will log something on your console
+        }
+
+        // arrow function
+        const welcome = () => {
+            console.log("Welcome!");
+        }
+
+        // Capturing an event - option 1
+        document.querySelector("#btn").onclick = welcome;
+
+
+        // Capturing an event - option 2
+        document.querySelector("#btn2").addEventListener("click", function xyz () {
+            console.log("Bangladesh")
+        })
+
+        // Below code is being used to get or retrieve data from localStorage 
+
+        // set a data/ value to localStorage
+        document.querySelector("#btn").addEventListener("click", function () {
+            localStorage.setItem("my-name", "Prosenjit Chowdhury");
+        })
+
+        // retrieve data from localStorage
+        document.querySelector("#btn2").addEventListener("click", function () {
+            const name = localStorage.getItem("my-name");
+            document.querySelector("#name").innerHTML = name;
+        })
+    </script>
+</body>
+</html>

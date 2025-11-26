@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Session 3 Project</title>
+
+        <style>
+            #submitBtn {
+                padding: 20px;
+                border: none;
+                color: white;
+                box-shadow: 1px 7px 5px -3px rgba(0,0,0,0.75);
+                -webkit-box-shadow: 1px 7px 5px -3px rgba(0,0,0,0.75);
+                -moz-box-shadow: 1px 7px 5px -3px rgba(0,0,0,0.75);
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="title">Session 03</h1>
+        <h2>Intro to JavaScript</h2>
+
+        <button id="submitBtn">
+            Change color
+        </button>
+
+        <script>
+            let titleDom = document.querySelector("#title"); // selected h1 tag
+            titleDom.style.background = "lightblue";
+            titleDom.innerText = "Hello World!";
+
+            // button
+            let buttonDom = document.querySelector("#submitBtn");
+            buttonDom.style.background = "red";
+        </script>
+    </body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Session 5 - New Topics</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="new-topics.html">New Topics</a>
+        <a href="home-task.html">Tasks</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="container">
+        <h1>New Topics & Concepts (Session 5)</h1>
+
+        <section>
+            <h2>1. Multi-page Website</h2>
+            <p>
+                So far we mostly worked on single-page examples.
+                This project is your first <strong>multi-page website</strong>:
+            </p>
+            <ul>
+                <li>Each screen is a separate <code>.html</code> file.</li>
+                <li>The navbar links connect these pages together.</li>
+                <li>It feels like one website, but actually multiple files.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>2. New HTML Tags We Are Using</h2>
+            <p>Some tags are new in this project:</p>
+            <ul>
+                <li><code>&lt;nav&gt;</code> – used for navigation menu / navbar at the top.</li>
+                <li><code>&lt;link&gt;</code> – connects an external CSS file to the HTML page.</li>
+                <li><code>&lt;meta&gt;</code> – stores page information (charset, viewport, etc.).</li>
+                <li><code>&lt;strong&gt;</code> – makes text bold with importance/meaning.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>3. External CSS File (Shared Design)</h2>
+            <p>
+                Instead of writing CSS inside each HTML file,
+                we are using <strong>one shared CSS file</strong>:
+            </p>
+            <pre><code>&lt;link rel="stylesheet" href="style.css" /&gt;</code></pre>
+            <ul>
+                <li>All pages share the same <code>style.css</code>.</li>
+                <li>Changing CSS in one place updates the whole site.</li>
+                <li>This is how most real projects are structured.</li>
+            </ul>
+        </section>
+
+        <section>
+            <section>
+                <h2>4. HTML Forms & Inputs (What We Will Build on Contact Page)</h2>
+                <p>
+                    On the <strong>Contact</strong> page, we will build a real contact form together.
+                    Some new tags and attributes we will use:
+                </p>
+                <ul>
+                    <li>
+                        <code>&lt;form&gt; ... &lt;/form&gt;</code> – wraps all inputs.
+                        <br />Used to group fields and handle submission.
+                    </li>
+                    <li>
+                        <code>&lt;label&gt;</code> – text label for an input.
+                        <br />Helps with usability and accessibility.
+                    </li>
+                    <li>
+                        <code>&lt;input&gt;</code> – single-line fields like name, email, phone.
+                        <br />We will use types like <code>text</code> and <code>email</code>.
+                    </li>
+                    <li>
+                        <code>&lt;textarea&gt;</code> – multi-line text box for messages.
+                    </li>
+                    <li>
+                        <code>&lt;button type="submit"&gt;</code> – button to submit the form.
+                    </li>
+                </ul>
+            </section>
+            
+            <h3>Important Attributes We Will Use</h3>
+            <ul>
+                <li>
+                    <code>placeholder="Enter your name"</code> –
+                    short hint shown inside the input.
+                </li>
+                <li>
+                    <code>required</code> –
+                    makes the field mandatory before submitting.
+                </li>
+                <li>
+                    <code>type="email"</code> –
+                    tells the browser this input should be an email.
+                </li>
+                <li>
+                    <code>name="email"</code> –
+                    the key used later when sending data to backend.
+                </li>
+            </ul>
+            
+            <p>
+                We will first <strong>see these tags and attributes here</strong>,
+                then switch to the <strong>Contact</strong> page and
+                <strong>build the full form live</strong> with HTML, CSS, and JavaScript.
+            </p>
+        </section>
+        <section>
+            <h2>5. What We Will Discuss Next (Future Sessions)</h2>
+            <ul>
+                <li>More semantic HTML tags (<code>header</code>, <code>footer</code>, etc.).</li>
+                <li>Better folder structure (<code>css</code>, <code>images</code>, <code>js</code> folders).</li>
+                <li>How this form will later talk to backend and database.</li>
+            </ul>
+        </section>
+    </div>
+
+</body>
+
+</html>
