@@ -17,4 +17,7 @@ app.listen(3000, () => {
 /**
  * For example: www.undpvolunteer.com
  * Server: www.api.undpvolunteer.com
+ * 
+ * /about
+ * Response should be a sentence about you.
  */
