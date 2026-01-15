@@ -62,7 +62,7 @@ Each session folder contains:
 ### Project, Deployment & Career Readiness
 
 **Session 11:** Portfolio Project Structure  
-**Session 12:** Enhancing Portfolio with JavaScript  
+**Session 12:** Enhancing Contact Form with with Duplicate Prevention & Soft Delete  
 **Session 13:** Deploying Backend (Render)  
 **Session 14:** Deploying Frontend (Vercel)  
 **Session 15:** Soft Skills & Remote Job Communication  
