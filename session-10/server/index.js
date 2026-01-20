@@ -39,7 +39,11 @@ app.get("/messages-page", (request, response) => {
 // Backend APIs
 app.get("/messages", async (request, response) => {
     try {
-        const messages = await ContactMessage.find().sort({ createdAt: -1 }); // returns messages and sort the latest
+        const messages = await ContactMessage.find({
+            filter: {
+                isDeleted: false
+            }
+        }).sort({ createdAt: -1 }); // returns messages and sort the latest
         return response.json({
             ok: true,
             data: messages
