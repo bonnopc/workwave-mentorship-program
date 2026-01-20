@@ -50,7 +50,7 @@ contactForm.addEventListener("submit", function (event) {
     console.log("message: ", messageValue);
 
     // submit the inputs to the server and save to the database
-    const apiUrl = "http://localhost:3000/contact";
+    const apiUrl = "/contact";
 
     const formData = {
         name: nameValue,
